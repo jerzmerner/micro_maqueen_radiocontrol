@@ -36,9 +36,9 @@ radio.onReceivedString(function (receivedString) {
         }
         maqueen.motorStop(maqueen.Motors.All)
     } else if (receivedString == "Hiii") {
-        music.playMelody("C E G C5 E G D C5 ", 1595)
+        music.playMelody("C E G C5 E G D C5 ", 1731)
         basic.showString("What is up?")
-        music.playMelody("E D C E D E F G ", 120)
+        music.playMelody("E D C E A C F C5 ", 1731)
     } else {
     	
     }
